@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Muhammad Firdan Azhari G.111.24.0033</string>
+    <string name="title1">Aplikasi Mobile Programming</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="exit">Exit</string>
+</resources>
