@@ -1,5 +1,6 @@
 package com.example.muhammadfirdanazharig111240033
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -32,6 +33,11 @@ class ProfileMahasiswaActivity : AppCompatActivity() {
 
         // Button Ubah
         btnEdit.setOnClickListener{
+            var intent: Intent = Intent(this, EditProfileActivity::class.java)
+            intent.putExtra("nim",dataNIM)
+            intent.putExtra("nama",dataNama)
+            intent.putExtra("email",dataEmail)
+            startActivity(intent)
         }
         // Button Keluar
         btnKeluar.setOnClickListener {
